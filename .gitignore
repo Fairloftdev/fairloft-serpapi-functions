@@ -1,0 +1,8 @@
+node_modules
+functions/node_modules
+functions/lib
+.secret.local
+.env
+dist
+npm-debug.log*
+.DS_Store
