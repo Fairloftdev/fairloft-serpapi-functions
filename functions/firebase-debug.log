@@ -1,0 +1,270 @@
+[debug] [2025-12-03T04:22:14.316Z] ----------------------------------------------------------------------
+[debug] [2025-12-03T04:22:14.320Z] Command:       /Users/ethan/.nvm/versions/node/v24.11.1/bin/node /Users/ethan/.nvm/versions/node/v24.11.1/bin/firebase emulators:start --only functions
+[debug] [2025-12-03T04:22:14.321Z] CLI Version:   14.26.0
+[debug] [2025-12-03T04:22:14.321Z] Platform:      darwin
+[debug] [2025-12-03T04:22:14.321Z] Node Version:  v24.11.1
+[debug] [2025-12-03T04:22:14.321Z] Time:          Tue Dec 02 2025 23:22:14 GMT-0500 (Eastern Standard Time)
+[debug] [2025-12-03T04:22:14.321Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-03T04:22:14.482Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-03T04:22:14.483Z] > authorizing via signed-in user (fairloftdev@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2025-12-03T04:22:14.814Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-03T04:22:14.814Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2025-12-03T04:22:14.818Z] Emulator locator file path: /var/folders/c0/t36qxdvx4v32wzydzqgc4rcc0000gn/T/hub-fairloft-mvp.json
+[debug] [2025-12-03T04:22:14.819Z] [hub] writing locator at /var/folders/c0/t36qxdvx4v32wzydzqgc4rcc0000gn/T/hub-fairloft-mvp.json
+[debug] [2025-12-03T04:22:15.169Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-03T04:22:15.170Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-03T04:22:15.170Z] [tasks] Cloud Tasks Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2025-12-03T04:22:15.170Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}],"tasks":[{"address":"127.0.0.1","family":"IPv4","port":9499}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] ⚠  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: apphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mapphosting, auth, firestore, database, hosting, pubsub, storage, dataconnect\u001b[22m"}}
+[debug] [2025-12-03T04:22:15.214Z] defaultcredentials: writing to file /Users/ethan/.config/firebase/fairloftdev_gmail_com_application_default_credentials.json
+[debug] [2025-12-03T04:22:15.217Z] Setting GAC to /Users/ethan/.config/firebase/fairloftdev_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to /Users/ethan/.config/firebase/fairloftdev_gmail_com_application_default_credentials.json"}}
+[debug] [2025-12-03T04:22:15.218Z] Checked if tokens are valid: true, expires at: 1764739330781
+[debug] [2025-12-03T04:22:15.219Z] Checked if tokens are valid: true, expires at: 1764739330781
+[debug] [2025-12-03T04:22:15.220Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fairloft-mvp/adminSdkConfig [none]
+[debug] [2025-12-03T04:22:15.656Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fairloft-mvp/adminSdkConfig 200
+[debug] [2025-12-03T04:22:15.656Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fairloft-mvp/adminSdkConfig {"projectId":"fairloft-mvp","storageBucket":"fairloft-mvp.firebasestorage.app"}
+[info] i  ui: downloading ui-v1.15.0.zip... {"metadata":{"emulator":{"name":"ui"},"message":"downloading ui-v1.15.0.zip..."}}
+[debug] [2025-12-03T04:22:15.679Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip 
+[debug] [2025-12-03T04:22:15.792Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip 200
+[debug] [2025-12-03T04:22:15.792Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/ui-v1.15.0.zip [stream]
+[debug] [2025-12-03T04:22:15.959Z] Data is 3538469
+[debug] [2025-12-03T04:22:15.959Z] [unzip] Entry: client/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:15.959Z] [unzip] Processing entry: client/
+[debug] [2025-12-03T04:22:15.959Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/
+[debug] [2025-12-03T04:22:15.960Z] [unzip] Entry: client/favicon-16x16.png (compressed_size=293 bytes, uncompressed_size=293 bytes)
+[debug] [2025-12-03T04:22:15.960Z] [unzip] Processing entry: client/favicon-16x16.png
+[debug] [2025-12-03T04:22:15.960Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.960Z] [unzip] Writing file: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/favicon-16x16.png
+[debug] [2025-12-03T04:22:15.961Z] [unzip] Entry: client/safari-pinned-tab.svg (compressed_size=1433 bytes, uncompressed_size=2611 bytes)
+[debug] [2025-12-03T04:22:15.961Z] [unzip] Processing entry: client/safari-pinned-tab.svg
+[debug] [2025-12-03T04:22:15.961Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.961Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/safari-pinned-tab.svg
+[debug] [2025-12-03T04:22:15.963Z] [unzip] Entry: client/favicon.ico (compressed_size=2933 bytes, uncompressed_size=13294 bytes)
+[debug] [2025-12-03T04:22:15.963Z] [unzip] Processing entry: client/favicon.ico
+[debug] [2025-12-03T04:22:15.963Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.963Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/favicon.ico
+[debug] [2025-12-03T04:22:15.964Z] [unzip] Entry: client/index.html (compressed_size=1364 bytes, uncompressed_size=3071 bytes)
+[debug] [2025-12-03T04:22:15.964Z] [unzip] Processing entry: client/index.html
+[debug] [2025-12-03T04:22:15.964Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.964Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/index.html
+[debug] [2025-12-03T04:22:15.964Z] [unzip] Entry: client/android-chrome-192x192.png (compressed_size=2684 bytes, uncompressed_size=2684 bytes)
+[debug] [2025-12-03T04:22:15.964Z] [unzip] Processing entry: client/android-chrome-192x192.png
+[debug] [2025-12-03T04:22:15.964Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.964Z] [unzip] Writing file: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/android-chrome-192x192.png
+[debug] [2025-12-03T04:22:15.965Z] [unzip] Entry: client/apple-touch-icon.png (compressed_size=2123 bytes, uncompressed_size=2152 bytes)
+[debug] [2025-12-03T04:22:15.965Z] [unzip] Processing entry: client/apple-touch-icon.png
+[debug] [2025-12-03T04:22:15.965Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.965Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/apple-touch-icon.png
+[debug] [2025-12-03T04:22:15.965Z] [unzip] Entry: client/android-chrome-512x512.png (compressed_size=5369 bytes, uncompressed_size=5411 bytes)
+[debug] [2025-12-03T04:22:15.965Z] [unzip] Processing entry: client/android-chrome-512x512.png
+[debug] [2025-12-03T04:22:15.966Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.966Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/android-chrome-512x512.png
+[debug] [2025-12-03T04:22:15.967Z] [unzip] Entry: client/manifest.json (compressed_size=245 bytes, uncompressed_size=551 bytes)
+[debug] [2025-12-03T04:22:15.967Z] [unzip] Processing entry: client/manifest.json
+[debug] [2025-12-03T04:22:15.967Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.967Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/manifest.json
+[debug] [2025-12-03T04:22:15.967Z] [unzip] Entry: client/robots.txt (compressed_size=26 bytes, uncompressed_size=26 bytes)
+[debug] [2025-12-03T04:22:15.967Z] [unzip] Processing entry: client/robots.txt
+[debug] [2025-12-03T04:22:15.967Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Writing file: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/robots.txt
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Entry: client/mstile-150x150.png (compressed_size=2034 bytes, uncompressed_size=2034 bytes)
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Processing entry: client/mstile-150x150.png
+[debug] [2025-12-03T04:22:15.968Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Writing file: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/mstile-150x150.png
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Entry: client/assets/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Processing entry: client/assets/
+[debug] [2025-12-03T04:22:15.968Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Entry: client/assets/index-BX-A56oj.js (compressed_size=582089 bytes, uncompressed_size=2092775 bytes)
+[debug] [2025-12-03T04:22:15.968Z] [unzip] Processing entry: client/assets/index-BX-A56oj.js
+[debug] [2025-12-03T04:22:15.968Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets
+[debug] [2025-12-03T04:22:15.969Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/index-BX-A56oj.js
+[debug] [2025-12-03T04:22:15.985Z] [unzip] Entry: client/assets/index-CjB9C900.css (compressed_size=35979 bytes, uncompressed_size=298654 bytes)
+[debug] [2025-12-03T04:22:15.985Z] [unzip] Processing entry: client/assets/index-CjB9C900.css
+[debug] [2025-12-03T04:22:15.986Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets
+[debug] [2025-12-03T04:22:15.986Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/index-CjB9C900.css
+[debug] [2025-12-03T04:22:15.989Z] [unzip] Entry: client/assets/index-BX-A56oj.js.map (compressed_size=2362482 bytes, uncompressed_size=10036679 bytes)
+[debug] [2025-12-03T04:22:15.990Z] [unzip] Processing entry: client/assets/index-BX-A56oj.js.map
+[debug] [2025-12-03T04:22:15.990Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets
+[debug] [2025-12-03T04:22:15.990Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/index-BX-A56oj.js.map
+[debug] [2025-12-03T04:22:16.030Z] [unzip] Entry: client/assets/extensions/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:16.030Z] [unzip] Processing entry: client/assets/extensions/
+[debug] [2025-12-03T04:22:16.030Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/extensions/
+[debug] [2025-12-03T04:22:16.030Z] [unzip] Entry: client/assets/extensions/default-extension.png (compressed_size=1646 bytes, uncompressed_size=1657 bytes)
+[debug] [2025-12-03T04:22:16.030Z] [unzip] Processing entry: client/assets/extensions/default-extension.png
+[debug] [2025-12-03T04:22:16.030Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/extensions
+[debug] [2025-12-03T04:22:16.030Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/extensions/default-extension.png
+[debug] [2025-12-03T04:22:16.032Z] [unzip] Entry: client/assets/img/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:16.032Z] [unzip] Processing entry: client/assets/img/
+[debug] [2025-12-03T04:22:16.032Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/img/
+[debug] [2025-12-03T04:22:16.032Z] [unzip] Entry: client/assets/img/database.png (compressed_size=29449 bytes, uncompressed_size=29988 bytes)
+[debug] [2025-12-03T04:22:16.032Z] [unzip] Processing entry: client/assets/img/database.png
+[debug] [2025-12-03T04:22:16.032Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/img
+[debug] [2025-12-03T04:22:16.032Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/img/database.png
+[debug] [2025-12-03T04:22:16.033Z] [unzip] Entry: client/assets/provider-icons/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:16.033Z] [unzip] Processing entry: client/assets/provider-icons/
+[debug] [2025-12-03T04:22:16.033Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/
+[debug] [2025-12-03T04:22:16.033Z] [unzip] Entry: client/assets/provider-icons/auth_service_saml.svg (compressed_size=575 bytes, uncompressed_size=1226 bytes)
+[debug] [2025-12-03T04:22:16.033Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_saml.svg
+[debug] [2025-12-03T04:22:16.033Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.034Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_saml.svg
+[debug] [2025-12-03T04:22:16.034Z] [unzip] Entry: client/assets/provider-icons/auth_service_phone.svg (compressed_size=261 bytes, uncompressed_size=414 bytes)
+[debug] [2025-12-03T04:22:16.035Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_phone.svg
+[debug] [2025-12-03T04:22:16.035Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.035Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_phone.svg
+[debug] [2025-12-03T04:22:16.036Z] [unzip] Entry: client/assets/provider-icons/auth_service_facebook.svg (compressed_size=289 bytes, uncompressed_size=457 bytes)
+[debug] [2025-12-03T04:22:16.036Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2025-12-03T04:22:16.036Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.036Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_facebook.svg
+[debug] [2025-12-03T04:22:16.037Z] [unzip] Entry: client/assets/provider-icons/auth_service_game_center.svg (compressed_size=991 bytes, uncompressed_size=3921 bytes)
+[debug] [2025-12-03T04:22:16.037Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2025-12-03T04:22:16.037Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.037Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_game_center.svg
+[debug] [2025-12-03T04:22:16.037Z] [unzip] Entry: client/assets/provider-icons/auth_service_apple.svg (compressed_size=230 bytes, uncompressed_size=334 bytes)
+[debug] [2025-12-03T04:22:16.037Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_apple.svg
+[debug] [2025-12-03T04:22:16.037Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.037Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_apple.svg
+[debug] [2025-12-03T04:22:16.038Z] [unzip] Entry: client/assets/provider-icons/auth_service_github.svg (compressed_size=466 bytes, uncompressed_size=838 bytes)
+[debug] [2025-12-03T04:22:16.038Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_github.svg
+[debug] [2025-12-03T04:22:16.038Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.038Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_github.svg
+[debug] [2025-12-03T04:22:16.039Z] [unzip] Entry: client/assets/provider-icons/auth_service_mslive.svg (compressed_size=203 bytes, uncompressed_size=378 bytes)
+[debug] [2025-12-03T04:22:16.039Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2025-12-03T04:22:16.039Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.039Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_mslive.svg
+[debug] [2025-12-03T04:22:16.040Z] [unzip] Entry: client/assets/provider-icons/auth_service_yahoo.svg (compressed_size=577 bytes, uncompressed_size=1182 bytes)
+[debug] [2025-12-03T04:22:16.040Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2025-12-03T04:22:16.040Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.041Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_yahoo.svg
+[debug] [2025-12-03T04:22:16.041Z] [unzip] Entry: client/assets/provider-icons/auth_service_twitter.svg (compressed_size=444 bytes, uncompressed_size=751 bytes)
+[debug] [2025-12-03T04:22:16.042Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2025-12-03T04:22:16.042Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.042Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_twitter.svg
+[debug] [2025-12-03T04:22:16.042Z] [unzip] Entry: client/assets/provider-icons/auth_service_play_games.svg (compressed_size=565 bytes, uncompressed_size=1173 bytes)
+[debug] [2025-12-03T04:22:16.042Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2025-12-03T04:22:16.042Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.042Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_play_games.svg
+[debug] [2025-12-03T04:22:16.043Z] [unzip] Entry: client/assets/provider-icons/auth_service_email.svg (compressed_size=228 bytes, uncompressed_size=326 bytes)
+[debug] [2025-12-03T04:22:16.043Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_email.svg
+[debug] [2025-12-03T04:22:16.043Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.043Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_email.svg
+[debug] [2025-12-03T04:22:16.044Z] [unzip] Entry: client/assets/provider-icons/auth_service_google.svg (compressed_size=409 bytes, uncompressed_size=720 bytes)
+[debug] [2025-12-03T04:22:16.044Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_google.svg
+[debug] [2025-12-03T04:22:16.044Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.044Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_google.svg
+[debug] [2025-12-03T04:22:16.045Z] [unzip] Entry: client/assets/provider-icons/auth_service_oidc.svg (compressed_size=414 bytes, uncompressed_size=858 bytes)
+[debug] [2025-12-03T04:22:16.045Z] [unzip] Processing entry: client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2025-12-03T04:22:16.045Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons
+[debug] [2025-12-03T04:22:16.045Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/assets/provider-icons/auth_service_oidc.svg
+[debug] [2025-12-03T04:22:16.052Z] [unzip] Entry: client/browserconfig.xml (compressed_size=491 bytes, uncompressed_size=822 bytes)
+[debug] [2025-12-03T04:22:16.052Z] [unzip] Processing entry: client/browserconfig.xml
+[debug] [2025-12-03T04:22:16.052Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:16.053Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/browserconfig.xml
+[debug] [2025-12-03T04:22:16.055Z] [unzip] Entry: client/favicon-32x32.png (compressed_size=475 bytes, uncompressed_size=475 bytes)
+[debug] [2025-12-03T04:22:16.055Z] [unzip] Processing entry: client/favicon-32x32.png
+[debug] [2025-12-03T04:22:16.055Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client
+[debug] [2025-12-03T04:22:16.056Z] [unzip] Writing file: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/client/favicon-32x32.png
+[debug] [2025-12-03T04:22:16.057Z] [unzip] Entry: server/ (compressed_size=0 bytes, uncompressed_size=0 bytes)
+[debug] [2025-12-03T04:22:16.057Z] [unzip] Processing entry: server/
+[debug] [2025-12-03T04:22:16.057Z] [unzip] mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/server/
+[debug] [2025-12-03T04:22:16.057Z] [unzip] Entry: server/server.mjs.map (compressed_size=217845 bytes, uncompressed_size=944978 bytes)
+[debug] [2025-12-03T04:22:16.057Z] [unzip] Processing entry: server/server.mjs.map
+[debug] [2025-12-03T04:22:16.058Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/server
+[debug] [2025-12-03T04:22:16.058Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/server/server.mjs.map
+[debug] [2025-12-03T04:22:16.063Z] [unzip] Entry: server/server.mjs (compressed_size=276407 bytes, uncompressed_size=933701 bytes)
+[debug] [2025-12-03T04:22:16.063Z] [unzip] Processing entry: server/server.mjs
+[debug] [2025-12-03T04:22:16.063Z] [unzip] else mkdir: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/server
+[debug] [2025-12-03T04:22:16.064Z] [unzip] deflating: /Users/ethan/.cache/firebase/emulators/ui-v1.15.0/server/server.mjs
+[info] i  functions: Watching "/Users/ethan/Downloads/fairloft-serpapi-functions/functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"/Users/ethan/Downloads/fairloft-serpapi-functions/functions\" for Cloud Functions..."}}
+[debug] [2025-12-03T04:22:16.077Z] Validating nodejs source
+[warn] ⚠  functions: package.json indicates an outdated version of firebase-functions. Please upgrade using npm install --save firebase-functions@latest in your functions directory. 
+[warn] ⚠  functions: Please note that there will be breaking changes when you upgrade. 
+[debug] [2025-12-03T04:22:17.377Z] > [functions] package.json contents: {
+  "name": "functions",
+  "engines": {
+    "node": "20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "serve": "firebase functions:config:get > .runtimeconfig.json && firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "firebase-functions": "^5.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
+[debug] [2025-12-03T04:22:17.378Z] Building nodejs source
+[debug] [2025-12-03T04:22:17.378Z] Failed to find version of module node: reached end of search path /Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules
+[warn] ⚠  functions: Your requested "node" version "20" doesn't match your global version "24". Using node@24 from host. 
+[debug] [2025-12-03T04:22:17.381Z] Could not find functions.yaml. Must use http discovery
+[debug] [2025-12-03T04:22:17.395Z] Found firebase-functions binary at '/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/.bin/firebase-functions'
+[info] Serving at port 8697
+
+[debug] [2025-12-03T04:22:20.764Z] Got response from /__/functions.yaml {"endpoints":{"scrapeGoogleShopping":{"availableMemoryMb":512,"timeoutSeconds":300,"minInstances":null,"maxInstances":null,"ingressSettings":null,"concurrency":null,"serviceAccountEmail":null,"vpc":null,"platform":"gcfv2","region":["us-central1"],"secretEnvironmentVariables":[{"key":"SERPAPI_KEY"}],"labels":{},"httpsTrigger":{},"entryPoint":"scrapeGoogleShopping"}},"specVersion":"v1alpha1","requiredAPIs":[],"extensions":{}}
+[info] ✔  functions: Loaded functions definitions from source: scrapeGoogleShopping. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: scrapeGoogleShopping."}}
+[info] ✔  functions[us-central1-scrapeGoogleShopping]: http function initialized (http://127.0.0.1:5001/fairloft-mvp/us-central1/scrapeGoogleShopping). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/fairloft-mvp/us-central1/scrapeGoogleShopping)."}}
+[debug] [2025-12-03T04:22:24.817Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2025-12-03T04:22:57.700Z] [work-queue] {"queuedWork":["/fairloft-mvp/us-central1/scrapeGoogleShopping-2025-12-03T04:22:57.687Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2025-12-03T04:22:57.715Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/fairloft-mvp/us-central1/scrapeGoogleShopping-2025-12-03T04:22:57.687Z"],"workRunningCount":1}
+[debug] [2025-12-03T04:22:57.716Z] Accepted request GET /fairloft-mvp/us-central1/scrapeGoogleShopping --> us-central1-scrapeGoogleShopping
+[debug] [2025-12-03T04:22:57.785Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2025-12-03T04:22:57.789Z] [functions] Got req.url=/fairloft-mvp/us-central1/scrapeGoogleShopping, mapping to path=/ {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/fairloft-mvp/us-central1/scrapeGoogleShopping, mapping to path=/"}}
+[info] i  functions: Trying to access secret SERPAPI_KEY@latest {"metadata":{"emulator":{"name":"functions"},"message":"Trying to access secret SERPAPI_KEY@latest"}}
+[debug] [2025-12-03T04:22:57.796Z] Checked if tokens are valid: true, expires at: 1764739330781
+[debug] [2025-12-03T04:22:57.796Z] Checked if tokens are valid: true, expires at: 1764739330781
+[debug] [2025-12-03T04:22:57.799Z] >>> [apiv2][query] GET https://secretmanager.googleapis.com/v1/projects/fairloft-mvp/secrets/SERPAPI_KEY/versions/latest:access [none]
+[debug] [2025-12-03T04:22:58.239Z] <<< [apiv2][status] GET https://secretmanager.googleapis.com/v1/projects/fairloft-mvp/secrets/SERPAPI_KEY/versions/latest:access 404
+[debug] [2025-12-03T04:22:58.241Z] <<< [apiv2][body] GET https://secretmanager.googleapis.com/v1/projects/fairloft-mvp/secrets/SERPAPI_KEY/versions/latest:access {"error":{"code":404,"message":"Secret [projects/140139556196/secrets/SERPAPI_KEY] not found or has no versions.","status":"NOT_FOUND"}}
+[error] ⬢  functions: Unable to access secret environment variables from Google Cloud Secret Manager. Make sure the credential used for the Functions Emulator have access or provide override values in /Users/ethan/Downloads/fairloft-serpapi-functions/functions/.secret.local:
+	FirebaseError: Request to https://secretmanager.googleapis.com/v1/projects/fairloft-mvp/secrets/SERPAPI_KEY/versions/latest:access had HTTP Error: 404, Secret [projects/140139556196/secrets/SERPAPI_KEY] not found or has no versions. {"metadata":{"emulator":{"name":"functions"},"message":"Unable to access secret environment variables from Google Cloud Secret Manager. Make sure the credential used for the Functions Emulator have access or provide override values in /Users/ethan/Downloads/fairloft-serpapi-functions/functions/.secret.local:\n\tFirebaseError: Request to https://secretmanager.googleapis.com/v1/projects/fairloft-mvp/secrets/SERPAPI_KEY/versions/latest:access had HTTP Error: 404, Secret [projects/140139556196/secrets/SERPAPI_KEY] not found or has no versions."}}
+[debug] [2025-12-03T04:22:58.350Z] [worker-pool] addWorker(us-central1-scrapeGoogleShopping) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-scrapeGoogleShopping)"}}
+[debug] [2025-12-03T04:22:58.369Z] [worker-pool] Adding worker with key us-central1-scrapeGoogleShopping, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-scrapeGoogleShopping, total=1"}}
+[debug] [2025-12-03T04:23:05.210Z] [runtime-status] [66285] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2025-12-03T04:23:05.234Z] [runtime-status] [66285] Resolved module firebase-functions {"declared":true,"installed":true,"version":"5.1.1","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"5.1.1\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2025-12-03T04:23:05.235Z] [runtime-status] [66285] Found local functions config: /Users/ethan/Downloads/fairloft-serpapi-functions/functions/.runtimeconfig.json {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Found local functions config: /Users/ethan/Downloads/fairloft-serpapi-functions/functions/.runtimeconfig.json"}}
+[debug] [2025-12-03T04:23:05.235Z] [runtime-status] [66285] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2025-12-03T04:23:05.235Z] [runtime-status] [66285] Resolved module firebase-functions {"declared":true,"installed":true,"version":"5.1.1","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"5.1.1\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2025-12-03T04:23:06.128Z] [runtime-status] [66285] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Checked functions.config() {\"config\":{}}"}}
+[debug] [2025-12-03T04:23:06.129Z] [runtime-status] [66285] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"5.1.1","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"5.1.1\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js\"}}"}}
+[debug] [2025-12-03T04:23:06.130Z] [runtime-status] [66285] Resolved module firebase-functions {"declared":true,"installed":true,"version":"5.1.1","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"5.1.1\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2025-12-03T04:23:06.133Z] [runtime-status] [66285] Resolved module firebase-admin {"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js\"}"}}
+[debug] [2025-12-03T04:23:06.142Z] [runtime-status] [66285] Resolved module firebase-functions {"declared":true,"installed":true,"version":"5.1.1","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"5.1.1\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-functions/lib/v1/index.js\"}"}}
+[debug] [2025-12-03T04:23:06.143Z] [runtime-status] [66285] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"12.7.0","resolution":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"12.7.0\",\"resolution\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions/node_modules/firebase-admin/lib/index.js\"}}"}}
+[debug] [2025-12-03T04:23:06.322Z] [runtime-status] [66285] initializeApp(DEFAULT) {"storageBucket":"fairloft-mvp.firebasestorage.app","projectId":"fairloft-mvp"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] initializeApp(DEFAULT) {\"storageBucket\":\"fairloft-mvp.firebasestorage.app\",\"projectId\":\"fairloft-mvp\"}"}}
+[warn] ⚠  functions: The Cloud Firestore emulator is not running, so calls to Firestore will affect production. {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"The Cloud Firestore emulator is not running, so calls to Firestore will affect production."}}
+[debug] [2025-12-03T04:23:06.344Z] [runtime-status] [66285] Functions runtime initialized. {"cwd":"/Users/ethan/Downloads/fairloft-serpapi-functions/functions","node_version":"24.11.1"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Functions runtime initialized. {\"cwd\":\"/Users/ethan/Downloads/fairloft-serpapi-functions/functions\",\"node_version\":\"24.11.1\"}"}}
+[debug] [2025-12-03T04:23:06.345Z] [runtime-status] [66285] Listening to port: /var/folders/c0/t36qxdvx4v32wzydzqgc4rcc0000gn/T/fire_emu_29b99e55a9a00e23.sock {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[runtime-status] [66285] Listening to port: /var/folders/c0/t36qxdvx4v32wzydzqgc4rcc0000gn/T/fire_emu_29b99e55a9a00e23.sock"}}
+[debug] [2025-12-03T04:23:06.399Z] [worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: IDLE"}}
+[debug] [2025-12-03T04:23:06.399Z] [worker-pool] submitRequest(triggerId=us-central1-scrapeGoogleShopping) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-scrapeGoogleShopping)"}}
+[info] i  functions: Beginning execution of "us-central1-scrapeGoogleShopping" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"Beginning execution of \"us-central1-scrapeGoogleShopping\""}}
+[debug] [2025-12-03T04:23:06.400Z] [worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: BUSY"}}
+[info] >  Missing SERPAPI_KEY {"user":"Missing SERPAPI_KEY","metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"\u001b[90m> \u001b[39m Missing SERPAPI_KEY"}}
+[debug] [2025-12-03T04:23:06.420Z] Finishing up request with event=pause {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"Finishing up request with event=pause"}}
+[info] i  functions: Finished "us-central1-scrapeGoogleShopping" in 19.749958ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"Finished \"us-central1-scrapeGoogleShopping\" in 19.749958ms"}}
+[debug] [2025-12-03T04:23:06.421Z] [worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"[worker-us-central1-scrapeGoogleShopping-44195ab8-6567-4087-b98f-94c7f4d9c7d2]: IDLE"}}
+[debug] [2025-12-03T04:23:06.424Z] Finishing up request with event=finish {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"Finishing up request with event=finish"}}
+[debug] [2025-12-03T04:23:06.427Z] Finishing up request with event=close {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-scrapeGoogleShopping"},"extension":{},"message":"Finishing up request with event=close"}}
+[debug] [2025-12-03T04:23:06.428Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
